@@ -828,7 +828,6 @@ const Radar = function (size, radar) {
     })
 
     if (featureToggles.UIRefresh2022) {
-      renderRadarLegends(radarElement)
       hideTooltipOnScroll(tip)
       addRadarLinkInPdfView()
     }
