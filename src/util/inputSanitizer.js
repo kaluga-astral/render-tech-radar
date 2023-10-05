@@ -50,7 +50,7 @@ const InputSanitizer = function () {
 
     const description = descriptionIndex === -1 ? '' : blip[descriptionIndex]
     const name = nameIndex === -1 ? '' : blip[nameIndex]
-    const isNew = isNewIndex === -1 ? '' : blip[isNewIndex]
+    const isNew = isNewIndex === -1 ? 'FALSE' : blip[isNewIndex]
     const ring = ringIndex === -1 ? '' : blip[ringIndex]
     const quadrant = quadrantIndex === -1 ? '' : blip[quadrantIndex]
 

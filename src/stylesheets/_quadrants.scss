@@ -3,6 +3,11 @@
   margin: 0 auto;
   position: relative;
 
+  /* убираем, чтобы не мешал */
+  .radar-legends {
+    display: none;
+  }
+
   @if $UIRefresh2022 {
     width: 100%;
 
